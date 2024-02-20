@@ -14,4 +14,3 @@ hacs_namaz_vakitleri:
   city_code: "şehir_kodu"
   api_key: "API_anahtarı"
 
-
