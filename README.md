@@ -14,7 +14,3 @@ hacs_namaz_vakitleri:
   city_code: "şehir_kodu"
   api_key: "API_anahtarı"
 
-
-Home Assistant'ı yeniden başlatın.
-Kullanım
-Bileşen başarıyla yüklendikten sonra, namaz vakitlerini sensörler olarak Home Assistant'ta görebilirsiniz. Ayrıca, sensörlerle ilgili yapılandırma seçenekleri ve otomatik güncelleme aralıklarını configuration.yaml dosyanızda ayarlayabilirsiniz.
