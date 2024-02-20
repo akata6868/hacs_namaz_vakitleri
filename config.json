@@ -1,1 +1,12 @@
-https://github.com/akata6868/hacs_namaz_vakitleri is not a valid add-on repository
+{
+  "name": "Namaz Vakitleri",
+  "version": "1.0.0",
+  "slug": "namaz_vakitleri",
+  "description": "Belirtilen şehir için namaz vakitlerini getiren bir Home Assistant eklentisi.",
+  "arch": ["armhf", "armv7", "amd64", "aarch64"],
+  "repository": "https://github.com/akata6868/hacs_namaz_vakitleri",
+  "maintainer": "akata6868",
+  "url": "https://github.com/akata6868/hacs_namaz_vakitleri",
+  "category": "Weather",
+  "docker": []
+}
