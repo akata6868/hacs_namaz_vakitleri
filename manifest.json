@@ -1,0 +1,7 @@
+{
+  "domain": "hacs_namaz_vakitleri",
+  "name": "Namaz Vakitleri",
+  "documentation": "https://github.com/yourusername/yourrepository/blob/main/README.md",
+  "dependencies": [],
+  "codeowners": []
+}
