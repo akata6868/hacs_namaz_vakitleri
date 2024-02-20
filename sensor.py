@@ -1,14 +1,21 @@
-"""Namaz vakti sensörlerinin tanımlandığı dosya."""
+"""
+Home Assistant bileşeni olarak Namaz Vakitleri Sensörü.
+"""
+
 import logging
 import requests
-import voluptuous as vol
+from datetime import datetime, timedelta
 from homeassistant.helpers.entity import Entity
 import homeassistant.helpers.config_validation as cv
-from homeassistant.const import CONF_CITY, CONF_CITY_CODE, CONF_API_KEY
+import voluptuous as vol
 
 _LOGGER = logging.getLogger(__name__)
 
 DOMAIN = 'hacs_namaz_vakitleri'
+
+CONF_CITY = 'city'
+CONF_CITY_CODE = 'city_code'
+CONF_API_KEY = 'api_key'
 
 CONFIG_SCHEMA = vol.Schema({
     DOMAIN: vol.Schema({
